@@ -1,17 +1,23 @@
 
 # Markdown
 
-Insertar descripción de Markdown
+Insertar descripción de Markdown 
 
-**Indice**
+Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial.
 
 ## Tabla de contenido
 
-Generar Índice en Markdown 
+Generar Índice en Markdown
+1. [Primer apartado](#id1)
+2. [Segundo apartado](#id2)
+## Primer apartado<a name="id1"></a>
+Texto del primer apartado
+## Segundo apartado<a name="id2"></a>
+Texto del segundo apartado
 
 ### Titulos 
 
-Intertar hasta 5 niveles de títulos 
+Intertar hasta 5 niveles de títulos
 
 # Encabezado 1
 ## Encabezado 2
@@ -45,7 +51,7 @@ Lista no numerada
 
 ## Párrafos y saltos de línea
 
-Insertar un 
+Insertar un
 
 ### Insertar imagenes
 
@@ -56,25 +62,32 @@ Insertar una imagen
 
 Insertar un enlace
 
-<http://enlace.com>
+<http://enlace1.com>
 
 ### Hacer anclaje
 
 Anclar el apartado de tablas 
+[Tablas](#id3)
 
 ### Insertar una linea de codigo
 
 Insertar ejemplo de código formateado en Java, PHP, Javascript y HTML. 
 
+`System.out.println("ejemplo: ")`
+
 ### Insertar tablas
 
-Insertar una tabla 
+| Primera columna | Segunda columna | Tercera columna |<a name="id3"></a>
 
 ### Editores en Markdown 
 
 Enlaces a editores en Markdown 
 
+<https://typora.io/>
+
 ### Otras referencias sobre Markdown
 
 Referencias sobre markdown 
+
+un comentario es ``` <!--texto que queremos comentar--> ```
 
