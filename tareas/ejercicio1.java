@@ -21,3 +21,15 @@ tabla:
 11 - Cabra 
 
  */
+
+ import java.util.Scanner;
+ public class ejercicio1{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Introduce tu año de nacimiento: ");
+        int ano=sc.nextInt();
+        int zodiaco=ano%12;
+        System.out.println("Tu horoscopo chino es: "+zodiaco);
+    }
+ }
+
